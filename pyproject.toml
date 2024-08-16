@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "promodoro"
+version = "0.1.0"
+description = ""
+authors = ["Alex <bombik815@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = { extras = ["all"], version = "^0.112.0" }
+black = "^24.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
